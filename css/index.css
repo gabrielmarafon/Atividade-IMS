@@ -1,0 +1,76 @@
+#divPrincipal {
+    width:80%; 
+    border:1px solid black;
+    margin: 0 auto;
+}
+
+#divBanner {
+    width:100%;
+    height:250px;
+    background-image: url("../images/capa.jpg");
+}
+
+#navTopo {
+    background-color:#290E63;
+    width: 100%;
+}
+
+#navTopo ul{
+    background-color: #290E63;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}   
+#navTopo ul li {
+    background-color: #290E63;
+    float: left;
+  
+}
+
+#navTopo ul li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navTopo ul li a:hover {
+    background-color: pink;
+    color: #290E63;
+}
+
+#divCentro {
+    width: 100%;
+}
+
+#sectionEsquerda {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#asideDireira {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.produto {
+    width: 80%;
+}
+
+.produto.img {
+    max-width: 50%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #290E63;
+    color: pink;
+    font-weight: bold;
+    padding: 5px;
+}
